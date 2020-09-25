@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "extends": [
+    "@nuxtjs"
+  ],
+  "rules": {
+    "quotes": ["error", "double"],
+    "func-call-spacing": ["error", "never"],
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "always",
+      "imports": "never",
+      "exports": "never",
+      "functions": "never"
+    }],
+    "no-extra-semi": "error",
+    "semi-style": ["error", "last"]
+  }
+}
